@@ -19,7 +19,6 @@ public class HML2 : MonoBehaviour
         Vector3 move = startingPostition;
         move.x += distance * Mathf.Sin(Time.time * speed);
         transform.position = move;
-        //transform.position = Vector3.Lerp(transform.position.x, transform.position.x + 20, Mathf.PingPong(Time.time * 5, 10));
 
     }
 }
